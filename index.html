@@ -840,6 +840,54 @@
             .hero-stats { grid-template-columns: 1fr; }
             .tech-bench { grid-template-columns: 1fr; }
         }
+
+        /* ===== LARGE SCREENS ===== */
+        @media (min-width: 1400px) {
+            .section-container { max-width: 1400px; }
+            .hero-content { max-width: 1400px; }
+            .footer-content { max-width: 1400px; }
+            .section-title { font-size: 3.2rem; }
+            .hero-text h1 { font-size: 4.2rem; }
+            .hero-text p { font-size: 1.2rem; max-width: 580px; }
+            .stat-card .stat-num { font-size: 2.2rem; }
+            .about-text p { font-size: 1.05rem; }
+            .tech-step { padding: 2.5rem 2rem; }
+            .tech-bench { padding: 3rem; }
+            .bench-item h4 { font-size: 2.6rem; }
+            .team-card { padding: 2.5rem; }
+            .team-avatar { width: 140px; height: 140px; }
+        }
+
+        @media (min-width: 1800px) {
+            .section-container { max-width: 1600px; }
+            .hero-content { max-width: 1600px; }
+            .footer-content { max-width: 1600px; }
+            nav { padding: 1.5rem 5rem; }
+            nav.scrolled { padding: 1rem 5rem; }
+            section { padding: 8rem 5rem; }
+            .hero { padding: 10rem 5rem 6rem; }
+            .hero-content { gap: 6rem; }
+            .hero-text h1 { font-size: 4.8rem; }
+            .hero-text p { font-size: 1.3rem; max-width: 640px; }
+            .section-title { font-size: 3.6rem; }
+            .section-desc { font-size: 1.15rem; max-width: 740px; }
+            .about-grid { gap: 6rem; }
+            .tech-bench { grid-template-columns: repeat(4, 1fr); gap: 2.5rem; }
+            .team-grid { gap: 3rem; }
+            .stat-card .stat-num { font-size: 2.5rem; }
+            .bench-item h4 { font-size: 3rem; }
+        }
+
+        @media (min-width: 2200px) {
+            .section-container { max-width: 1800px; }
+            .hero-content { max-width: 1800px; }
+            .footer-content { max-width: 1800px; }
+            .hero-text h1 { font-size: 5.5rem; }
+            .hero-text p { font-size: 1.4rem; }
+            .section-title { font-size: 4rem; }
+            .hero-stats { gap: 2rem; }
+            .stat-card { padding: 1.8rem; }
+        }
     </style>
 </head>
 <body>
